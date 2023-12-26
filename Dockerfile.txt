@@ -1,4 +1,4 @@
 FROM nginx:alpine
-COPY index.html /usr/Marchelo/latihan/index.html
+ADD https://github.com/marchel04/CapstoneCloud-225410046/raw/main/index.html .
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
